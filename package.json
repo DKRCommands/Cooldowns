@@ -1,0 +1,42 @@
+{
+  "name": "@dkrcommands/cooldowns",
+  "description": "DKRCommands cooldowns plugin",
+  "version": "1.0.0-beta.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint --ext .ts src"
+  },
+  "keywords": [
+    "bot",
+    "slash",
+    "command",
+    "handler",
+    "discord",
+    "discord.js",
+    "dkrcommands",
+    "cooldown"
+  ],
+  "author": "Karel Krýda",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/DKRCommands/Cooldowns#readme",
+  "repository": "DKRCommands/Cooldowns",
+  "bugs": "https://github.com/DKRCommands/Cooldowns",
+  "dependencies": {
+    "dkrcommands": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.10",
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "eslint": "^8.28.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  }
+}
